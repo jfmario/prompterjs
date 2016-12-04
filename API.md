@@ -283,7 +283,7 @@ No default is allowed.
 
 * `errorMessage`: The error message upon failed validation.
 * `regex`: An optional regex to override the default one (see below).
-* `replacement`: If provided, this character will be shown with each character typed.
+* `replacement`: If provided, this character will be shown with each character typed. Otherwise the password will be completely hidden.
 
 The default password setting is 4 to 16 alphanumeric characters with no spaces.
 

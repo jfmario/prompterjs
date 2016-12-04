@@ -6,3 +6,5 @@ console.log ( prompter.getPassword ( "Password:" ) );
 console.log ( prompter.getPassword ( "Password:", {
     replacement: '*'
 }));
+console.log ( prompter.getUsername ( "Username:" ) );
+console.log ( prompter.getYesNo ( "Is this all correct?" ) );

@@ -16,3 +16,5 @@ this.getObject = complexFunctions.getObject;
 
 this.getIpAddress = specialFunctions.getIpAddress;
 this.getPassword = specialFunctions.getPassword;
+this.getUsername = specialFunctions.getUsername;
+this.getYesNo = specialFunctions.getYesNo;
