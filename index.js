@@ -15,3 +15,4 @@ this.getIntArray = complexFunctions.getIntArray;
 this.getObject = complexFunctions.getObject;
 
 this.getIpAddress = specialFunctions.getIpAddress;
+this.getPassword = specialFunctions.getPassword;

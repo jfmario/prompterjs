@@ -117,7 +117,7 @@ Additional options:
 * `regex`
 * `validator`
 
-The default `errorMessage` is "Something when wrong." You will want to override
+The default `errorMessage` is "Something went wrong." You will want to override
 this if you provide validation.
 
 ### Get a Number #
@@ -285,6 +285,7 @@ No default is allowed.
 * `regex`: An optional regex to override the default one (see below).
 * `replacement`: If provided, this character will be shown with each character typed.
 
+The default password setting is 4 to 16 alphanumeric characters with no spaces.
 
 ### Get Username #
 
@@ -299,7 +300,7 @@ No default is allowed.
 * `errorMessage`: The error message upon failed validation.
 * `regex`: An optional regex to override the default one (see below).
 
-The default regex allows 4 to 32 alphanumeric characters with no spaces. The
+The default regex allows 4 to 16 alphanumeric characters with no spaces. The
 default error message reflects this.
 
 ### Get Yes or No #
@@ -445,6 +446,7 @@ The returned object will be something like this:
 
 ```js
 {
+    amStupid: true,
     ip: '127.0.0.1',
     password: 'password123!',
     port: 8008,
