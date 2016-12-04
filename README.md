@@ -8,6 +8,10 @@ An npm module that provides shortcut prompts using `prompt-sync`.
 npm install prompterjs
 ```
 
+## Why #
+
+`prompt` is great, but is async. `prompt-sync` is great, but I wanted a few more features.
+
 ## Use #
 
 ```js
