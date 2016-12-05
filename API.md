@@ -430,7 +430,7 @@ prompter.multi ([
         min: 0,
         max: 65535,
         name: 'port',
-        prompt: "What port?"
+        prompt: "What port?",
         pType: 'int',
         showDefault: true
     },

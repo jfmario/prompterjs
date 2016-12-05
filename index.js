@@ -2,6 +2,7 @@
 var basicFunctions = require ( './lib/functions/basic' );
 var complexFunctions = require ( './lib/functions/complex' );
 var specialFunctions = require ( './lib/functions/special' );
+var multiFunctions = require ( './lib/functions/multi' );
 
 this.get = basicFunctions.get;
 this.getString = basicFunctions.getString;
@@ -18,3 +19,8 @@ this.getIpAddress = specialFunctions.getIpAddress;
 this.getPassword = specialFunctions.getPassword;
 this.getUsername = specialFunctions.getUsername;
 this.getYesNo = specialFunctions.getYesNo;
+this.ask = specialFunctions.getYesNo;
+this.getSelection = specialFunctions.getSelection;
+
+this.prompt = multiFunctions.prompt;
+this.multi = multiFunctions.multi;
